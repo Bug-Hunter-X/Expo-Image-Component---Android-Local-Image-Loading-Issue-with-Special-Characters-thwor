@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Image` component with a local URI that has special characters, such as spaces or accented characters.  The image fails to load, and no error is thrown.  The URI is correctly formatted, and the file exists in the project's assets directory.  This only happens on Android, iOS works fine.
